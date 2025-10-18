@@ -29,6 +29,16 @@ body{
     background-color: var(--background);
     color: white;
 }
+
+/* ESTILOS INDEX */
+
+.header{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px;
+}
 p{
     color: var(--text-muted);
 }
@@ -170,3 +180,11 @@ select{
     }
 
      
+
+
+    /* media queris para responsive */
+ @media(max-width >= 500){
+     .header{
+        flex-direction: row;
+     }
+ }
